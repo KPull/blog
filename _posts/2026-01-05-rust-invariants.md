@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Rust Taught me about Invariants"
+title:  "What Rust taught me about Invariants"
 date:   2026-01-05 21:03:46 +0100
 categories: software_development
 tags: [rust, java, programming, software development]
@@ -49,10 +49,8 @@ Notice how the `username` parameter is defined as a `String`. When this function
 We can take the ideas we learned from Rust and apply them here by implementing the `Username` class as follows:
 
 ```java
-public final class Username {
-    private final String value;
-
-    public Username(String value) {
+public record Username(String value) {
+    public Username {
         Objects.requireNonNull(value);
 
         if (value.length() < 3 || value.length() > 20) {
@@ -65,12 +63,6 @@ public final class Username {
                 throw new IllegalArgumentException("Usernames must contain only alphabetic and lowercase characters");
             }
         }
-
-        this.value = value;
-    }
-
-    public String value() {
-        return value;
     }
 }
 ``` 
