@@ -6,7 +6,7 @@ categories: software_development
 tags: [rust, java, programming, software development]
 ---
 
-Over the past year and a half, I dove deep into learning [Rust](http://rust-lang.org), the systems programming language that is consistently the most loved language in [StackOverflow's Developer Survey](https://survey.stackoverflow.co/2025/technology#2-programming-scripting-and-markup-languages). Learning Rust has helped me elevate my programming skills to the next level, even in other languages.
+Over the past year and a half, I dove deep into learning [Rust](https://rust-lang.org), the systems programming language that is consistently the most loved language in [StackOverflow's Developer Survey](https://survey.stackoverflow.co/2025/technology#2-programming-scripting-and-markup-languages). Learning Rust has helped me elevate my programming skills to the next level, even in other languages.
 
 To begin with, let me point out that my main focus has always been Java and Python. Until now, I always treated classes in Java as a way to combine related data and behaviour into a single convenient container. This is, after all, how object-oriented programming concepts are introduced to budding programmers. But in Rust, developers are encouraged to use types to **prove** program invariants. This knowledge has changed how I treat types in Java.
 
