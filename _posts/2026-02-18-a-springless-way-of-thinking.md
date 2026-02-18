@@ -6,8 +6,6 @@ categories: software_development
 tags: [java, spring, software development]
 ---
 
-# Full Control
-
 I've been programming with Java for as long as I can remember. I remember
 picking up and reading through the entirety of Deitel's _Java How to Program:
 2nd Edition_ in my childhood and being amazed how much more interesting it
